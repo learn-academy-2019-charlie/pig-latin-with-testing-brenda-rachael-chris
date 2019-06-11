@@ -33,9 +33,15 @@ See also:
 ## Rules of Pig Latin
 
 * For words beginning with a vowel, add "way" to the end.
+
 * For words beginning with one or more consonants, move all of the first consecutive consonants to the end, and add "ay".
+
 * If the first consonants include "qu", move the "u" along with the "q". Don't forget about words like "squeal" where "qu" doesn't come first!
+
 * For words beginning with "y", treat "y" as a consonant.
+
+
+
 
 ## Examples
 There are many examples of Pig Latin translators out there on the Internet to give you inspiration. [Here's one](http://funtranslations.com/pig-latin)
