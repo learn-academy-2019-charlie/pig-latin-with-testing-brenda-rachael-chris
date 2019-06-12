@@ -1,4 +1,4 @@
-// // Global variables
+// Global variables
 var outputArray = []
 var vowels = ['a', 'e', 'i', 'o', 'u', 'y', 'A', 'E', 'I', 'O', 'U', 'Y']
 
