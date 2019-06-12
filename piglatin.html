@@ -7,16 +7,19 @@
         <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" rel="stylesheet">
     </head>
     <body>
-        <h1>Pig Latin Translator</h1>
+        <h1>Learn Pig Latin!</h1>
+        <br>
         <div class="container">
             <div class="box">
-                <input type="textarea" name="input" value="" id="j-input" placeholder="Enter text to be translated">
+                <input type="textarea" name="input" value="" id="j-input" placeholder="Type a word!">
             </div>
-            <button type="submit" name="button" onclick="convertsToWords()">Submit</button>
+            <button id=button1 type="submit" name="button" onclick="convertsToWords()">Submit</button>
             <div class="box">
                 <p id="j-output"></p>
             </div>
+            <button id=button2 type="refresh" name="refresh" onclick="window.location.reload()">New Word</button>
         </div>
+        <footer></footer>
         <script type="text/javascript" src="piglatin.js" charset="utf-8"></script>
     </body>
 </html>
